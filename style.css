@@ -1,6 +1,6 @@
 body{
     font-family: monospace;
-    background-color: lightgrey;
+    background-color: rgba(47, 57, 47, 0.933);
   }
   
   .outputBox{
@@ -20,7 +20,7 @@ body{
   }
   
   header{
-    background: rgb(1, 53, 5);
+    background: rgb(15, 113, 23);
     padding: 20px;
     margin-bottom: 10px;
     font-size: 50px;
