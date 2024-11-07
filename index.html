@@ -1,4 +1,27 @@
-<html>
+
+<html lang="en">
+    <!--the head section is for metadata-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<!--the body is for the actual content of my site-->
+<body>
+    <h1>Title</h1>
+    <p id="demo"onclick="changeSize('demo')">My first paragraph.</p>
+    <script src="script.js">
+        
+    </script>
+</body>
+<script>
+    function changeSize (elementId){
+        //function code 
+        var element = document.getElementById(elementId);
+        element.style.fontSize = "35px";
+    }
+</script> 
 
 
 
