@@ -13,16 +13,17 @@ function getCar(){
    
 
     if(Age == "Over 16" && Children == "You have Children" && Place == "City" && Salary == "Over 100k"){
-        document.getElementById("images").setAttribute("src", "https://mediapool.bmwgroup.com/cache/P9/202309/P90522951/P90522951-the-bmw-i5-edrive40-driving-10-2023-2247px.jpg")
+        document.getElementById("images").setAttribute("src", "https://media.ed.edmunds-media.com/audi/q7/2025/oem/2025_audi_q7_4dr-suv_prestige_fq_oem_1_1280.jpg")
     } 
     if(Age == "Over 16" && Children == "You have Children" && Place == "Countryside" && Salary == "Over 100k"){
-        console.log("hi");
+        document.getElementById("images").setAttribute("src", "https://lp-auto-assets.s3.amazonaws.com/23/land-rover/defender/M3/header.jpg")
+    } 
     }
     if(Age == "Over 16" && Children == "You have Children" && Place == "Countryside" && Salary == "under 100k"){
-        console.log("hi");
-    }
+        document.getElementById("images").setAttribute("src", "https://media.cnn.com/api/v1/images/stellar/prod/2025-toyota-4runner-trdpro-mudbath-048.jpg?c=16x9&q=h_833,w_1480,c_fill")
+    
     if(Age == "Over 16" && Children == "You have Children" && Place == "City" && Salary == "under 100k"){
-        console.log("hi");
+        document.getElementById("images").setAttribute("src", "https://media.ed.edmunds-media.com/toyota/highlander-hybrid/2022/oem/2022_toyota_highlander-hybrid_4dr-suv_bronze-edition_fq_oem_1_1600.jpg")
     }
     
 
