@@ -1,3 +1,6 @@
+
+/* style.css is the layout of the website which is things such as color, font, and adding other decorations to the slide*/
+
 body{
     font-family: monospace;
     background-color: rgba(47, 57, 47, 0.933);
@@ -10,16 +13,17 @@ body{
     background-color: white;
     padding: 5px;
   }
-  
+ /* this is for the customization of the buttons on the website */
   button{
     background-color: white;
     padding: 10px;
     font-family: monospace;
     border: none;
+    cursor: pointer;
     
   }
 
-
+/* this is how big the images are and where they go*/
   #images{
     width:100%;
     height: auto;
@@ -41,4 +45,8 @@ body{
   input{
     padding: 10px;
     font-family: monospace;
+  }
+
+  p{
+    color: white
   }
